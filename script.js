@@ -24,7 +24,7 @@ function displayUser(user) {
     userDetails.innerHTML = `
     <div id="user">
         <div class="card__details">
-            <img src="${user.picture.medium}" alt="profile_picture" class="card__img">
+            <img src="${user.picture.large}" alt="profile_picture" class="card__img">
             <p><strong>Name: </strong>${user.name.first} ${user.name.last}</p>
             <p><strong>Email: </strong>${user.email}</p>
             <p><strong>Number: </strong>${user.phone}</p>
