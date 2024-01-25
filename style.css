@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: cornflowerblue;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+.card {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    max-width: 1000px;
+}
+
+.card__btn {
+    color: whitesmoke;
+    background: forestgreen;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid hsl(120, 62%, 25%);
+}
+
+.card__btn:hover {
+    background: hsl(120, 62%, 25%);
+}
+
+.card__btn:active {
+    background: hsl(120, 61%, 37%);
+}
+
+.card__title, .card__details {
+    margin: 10px;
+    text-align: center;
+}
